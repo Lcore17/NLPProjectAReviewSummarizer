@@ -25,8 +25,8 @@ The project explores and compares the performance of various approaches such as 
 
 ### 🔥 Deep Learning Algorithms
 - LSTM (Long Short-Term Memory)
-- BiLSTM (Bidirectional LSTM)
-- GRU (Gated Recurrent Unit)
+- MLP (MultiLayer Perceptron)
+- CNN (Convolutional Neural Network)
 
 ### 🤖 Language Models
 - BERT (Bidirectional Encoder Representations from Transformers)
