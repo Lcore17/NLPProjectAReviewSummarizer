@@ -44,44 +44,44 @@ The table below shows the detailed performance metrics for our models on the Ama
 
 | Model                  | Feature Type  | Val Accuracy | Val F1    | Test Accuracy | Test F1   |
 |------------------------|---------------|--------------|-----------|---------------|-----------|
-| XGBoost                | TF-IDF        | 0.900997     | 0.901400  | 0.910891      | 0.910747  |
-| XGBoost                | BoW           | 0.914608     | 0.917555  | 0.915842      | 0.915924  |
-| XGBoost                | Combined      | 0.879956     | 0.880245  | 0.886139      | 0.886247  |
-| XGBoost                | NLP Features  | 0.513565     | 0.513791  | 0.554455      | 0.554002  |
-| Logistic Regression    | TF-IDF        | 0.940587     | 0.940689  | 0.970297      | 0.970284  |
-| Logistic Regression    | BoW           | 0.941830     | 0.941869  | 0.960396      | 0.960492  |
-| Logistic Regression    | Combined      | 0.596519     | 0.601091  | 0.608911      | 0.605726  |
-| Logistic Regression    | NLP Features  | 0.433157     | 0.440218  | 0.485149      | 0.485044  |
-| Random Forest          | TF-IDF        | 0.908458     | 0.909072  | 0.935644      | 0.935363  |
-| Random Forest          | BoW           | 0.914623     | 0.914479  | 0.950495      | 0.950513  |
-| Random Forest          | Combined      | 0.904716     | 0.905050  | 0.905941      | 0.905338  |
-| Random Forest          | NLP Features  | 0.538333     | 0.537532  | 0.544554      | 0.543993  |
-| Naïve Bayes            | TF-IDF        | 0.933165     | 0.933482  | 0.950495      | 0.950540  |
-| Naïve Bayes            | BoW           | 0.928211     | 0.928539  | 0.955446      | 0.955837  |
-| Naïve Bayes            | Combined      | 0.863921     | 0.865660  | 0.891089      | 0.890427  |
-| Naïve Bayes            | NLP Features  | 0.444291     | 0.429729  | 0.470297      | 0.461508  |
+| **XGBoost**                | TF-IDF        | 0.900997     | 0.901400  | 0.910891      | 0.910747  |
+| **XGBoost**                | BoW           | 0.914608     | 0.917555  | 0.915842      | 0.915924  |
+| **XGBoost**                | Combined      | 0.879956     | 0.880245  | 0.886139      | 0.886247  |
+| **XGBoost**                | NLP Features  | 0.513565     | 0.513791  | 0.554455      | 0.554002  |
+| **Logistic Regression**    | TF-IDF        | 0.940587     | 0.940689  | 0.970297      | 0.970284  |
+| **Logistic Regression**    | BoW           | 0.941830     | 0.941869  | 0.960396      | 0.960492  |
+| **Logistic Regression**    | Combined      | 0.596519     | 0.601091  | 0.608911      | 0.605726  |
+| **Logistic Regression**    | NLP Features  | 0.433157     | 0.440218  | 0.485149      | 0.485044  |
+| **Random Forest**          | TF-IDF        | 0.908458     | 0.909072  | 0.935644      | 0.935363  |
+| **Random Forest**          | BoW           | 0.914623     | 0.914479  | 0.950495      | 0.950513  |
+| **Random Forest**          | Combined      | 0.904716     | 0.905050  | 0.905941      | 0.905338  |
+| **Random Forest**          | NLP Features  | 0.538333     | 0.537532  | 0.544554      | 0.543993  |
+| **Naïve Bayes**            | TF-IDF        | 0.933165     | 0.933482  | 0.950495      | 0.950540  |
+| **Naïve Bayes**            | BoW           | 0.928211     | 0.928539  | 0.955446      | 0.955837  |
+| **Naïve Bayes**            | Combined      | 0.863921     | 0.865660  | 0.891089      | 0.890427  |
+| **Naïve Bayes**            | NLP Features  | 0.444291     | 0.429729  | 0.470297      | 0.461508  |
 
 ### 📝 Model Performance on IMDB Dataset
 The table below shows the detailed performance metrics for our models on the IMDB dataset:
 
 | Model                  | Feature Type  | Val Accuracy | Val F1    | Test Accuracy | Test F1   |
 |------------------------|---------------|--------------|-----------|---------------|-----------|
-| XGBoost                | TF-IDF        | 0.76500      | 0.764855  | 0.695         | 0.694809  |
-| XGBoost                | BoW           | 0.77875      | 0.778524  | 0.755         | 0.754257  |
-| XGBoost                | Combined      | 0.75625      | 0.755873  | 0.695         | 0.694931  |
-| XGBoost                | NLP Features  | 0.49000      | 0.488568  | 0.505         | 0.504889  |
-| Logistic Regression    | TF-IDF        | 0.81500      | 0.814744  | 0.825         | 0.824961  |
-| Logistic Regression    | BoW           | 0.79250      | 0.792390  | 0.790         | 0.790000  |
-| Logistic Regression    | Combined      | 0.56625      | 0.564769  | 0.500         | 0.494949  |
-| Logistic Regression    | NLP Features  | 0.56625      | 0.564769  | 0.500         | 0.494949  |
-| Random Forest          | TF-IDF        | 0.78875      | 0.788668  | 0.780         | 0.779802  |
-| Random Forest          | BoW           | 0.79000      | 0.789671  | 0.795         | 0.794954  |
-| Random Forest          | Combined      | 0.80875      | 0.808619  | 0.755         | 0.754700  |
-| Random Forest          | NLP Features  | 0.52125      | 0.520246  | 0.530         | 0.530000  |
-| Naïve Bayes            | TF-IDF        | 0.79375      | 0.793459  | 0.815         | 0.814773  |
-| Naïve Bayes            | BoW           | 0.77875      | 0.778529  | 0.820         | 0.819838  |
-| Naïve Bayes            | Combined      | 0.69000      | 0.687407  | 0.735         | 0.733876  |
-| Naïve Bayes            | NLP Features  | 0.53125      | 0.519362  | 0.520         | 0.510404  |
+| **XGBoost**                | TF-IDF        | 0.76500      | 0.764855  | 0.695         | 0.694809  |
+| **XGBoost**                | BoW           | 0.77875      | 0.778524  | 0.755         | 0.754257  |
+| **XGBoost**                | Combined      | 0.75625      | 0.755873  | 0.695         | 0.694931  |
+| **XGBoost**                | NLP Features  | 0.49000      | 0.488568  | 0.505         | 0.504889  |
+| **Logistic Regression**    | TF-IDF        | 0.81500      | 0.814744  | 0.825         | 0.824961  |
+| **Logistic Regression**    | BoW           | 0.79250      | 0.792390  | 0.790         | 0.790000  |
+| **Logistic Regression**    | Combined      | 0.56625      | 0.564769  | 0.500         | 0.494949  |
+| **Logistic Regression**    | NLP Features  | 0.56625      | 0.564769  | 0.500         | 0.494949  |
+| **Random Forest**          | TF-IDF        | 0.78875      | 0.788668  | 0.780         | 0.779802  |
+| **Random Forest**          | BoW           | 0.79000      | 0.789671  | 0.795         | 0.794954  |
+| **Random Forest**          | Combined      | 0.80875      | 0.808619  | 0.755         | 0.754700  |
+| **Random Forest**          | NLP Features  | 0.52125      | 0.520246  | 0.530         | 0.530000  |
+| **Naïve Bayes**            | TF-IDF        | 0.79375      | 0.793459  | 0.815         | 0.814773  |
+| **Naïve Bayes**            | BoW           | 0.77875      | 0.778529  | 0.820         | 0.819838  |
+| **Naïve Bayes**            | Combined      | 0.69000      | 0.687407  | 0.735         | 0.733876  |
+| **Naïve Bayes**            | NLP Features  | 0.53125      | 0.519362  | 0.520         | 0.510404  |
 
 ### 🔑 Key Findings from Model Comparison
 - **Best Performance on Amazon Dataset:** Logistic Regression with TF-IDF features achieved the highest test accuracy of 97.03% and F1 score of 0.970284.
@@ -89,26 +89,19 @@ The table below shows the detailed performance metrics for our models on the IMD
 - **Feature Importance:** TF-IDF and BoW consistently outperformed NLP Features and Combined approaches across both datasets.
 - **Model Consistency:** Logistic Regression and Random Forest models demonstrated more stable performance across different feature types compared to other models.
 
-### ⚡ Deep Learning and Transformer Model Results
-As demonstrated in our comprehensive evaluation, our advanced models showed significant improvements:
+### ⚡ Deep Learning Model Results
+#### Table of Current Performance and Suggested Modifications
 
-#### Amazon Dataset
-| Model                  | Accuracy (%) | ROUGE Score | BLEU Score |
-|------------------------|--------------|-------------|------------|
-| LSTM + Word2Vec         | 87.2         | 0.83        | 0.69       |
-| BiLSTM + Word2Vec       | 89.5         | 0.85        | 0.72       |
-| GRU + Word2Vec          | 85.9         | 0.82        | 0.68       |
-| BERT                    | 92.4         | 0.91        | 0.85       |
-| RoBERTa                 | 91.5         | 0.90        | 0.84       |
+| Model | Dataset | Current Test Accuracy | Current Test F1 | Suggested Modifications |
+|-------|---------|-----------------------|----------------|---------------------------|
+| **LSTM**  | Amazon  | 88.8%                 | 0.875647       | - Use pre-trained embeddings ([Word Embeddings](https://nlp.stanford.edu/projects/glove/))<br>- Keep stopwords<br>- Tune hyperparameters<br>- Consider increasing model complexity (e.g., more layers)<br>- Use dropout for regularization |
+| **CNN**   | Amazon  | 87.05%                | 0.855892       | - Use pre-trained embeddings ([Word Embeddings](https://nlp.stanford.edu/projects/glove/))<br>- Keep stopwords<br>- Tune hyperparameters<br>- Consider increasing model complexity (e.g., more filters)<br>- Use batch normalization |
+| **MLP**   | Amazon  | 81.6%                 | 0.806338       | - Use pre-trained embeddings ([Word Embeddings](https://nlp.stanford.edu/projects/glove/))<br>- Keep stopwords<br>- Increase model complexity (e.g., more hidden layers)<br>- Tune hyperparameters<br>- Use dropout |
+| **LSTM**  | IMDB    | 57.5%                 | 0.574479       | - Use pre-trained embeddings ([Word Embeddings](https://nlp.stanford.edu/projects/glove/))<br>- Keep stopwords<br>- Tune hyperparameters<br>- Check data preprocessing and model architecture<br>- Consider data augmentation |
+| **CNN**   | IMDB    | 64.5%                 | 0.642416       | - Use pre-trained embeddings ([Word Embeddings](https://nlp.stanford.edu/projects/glove/))<br>- Keep stopwords<br>- Tune hyperparameters<br>- Check data preprocessing and model architecture<br>- Use batch normalization |
+| **MLP**   | IMDB    | 55.5%                 | 0.554097       | - Use pre-trained embeddings ([Word Embeddings](https://nlp.stanford.edu/projects/glove/))<br>- Keep stopwords<br>- Increase model complexity<br>- Tune hyperparameters<br>- Check data preprocessing and model architecture |
 
-#### IMDB Dataset
-| Model                  | Accuracy (%) | ROUGE Score | BLEU Score |
-|------------------------|--------------|-------------|------------|
-| LSTM + Word2Vec         | 84.3         | 0.80        | 0.66       |
-| BiLSTM + Word2Vec       | 87.1         | 0.84        | 0.71       |
-| GRU + Word2Vec          | 83.8         | 0.79        | 0.65       |
-| BERT                    | 91.0         | 0.89        | 0.84       |
-| RoBERTa                 | 90.0         | 0.88        | 0.83       |
+This table encapsulates the current state and proposed enhancements, ensuring a structured approach to improving the DL models.
 
 ---
 
