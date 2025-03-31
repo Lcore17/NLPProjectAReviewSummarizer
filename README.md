@@ -1,6 +1,6 @@
 # 📚 Review Summarizer
 
-# Course: NLP (Semester 6) - Pillai College of Engineering
+### Course: NLP (Semester 6) - Pillai College of Engineering
 
 ## 📖 Project Overview
 This project is part of the **Natural Language Processing (NLP)** course for Semester 6 students at **Pillai College of Engineering**. The project, **"Review Summarizer,"** focuses on developing an AI-powered system capable of extracting concise summaries from customer reviews across different domains, such as e-commerce platforms and entertainment services.
