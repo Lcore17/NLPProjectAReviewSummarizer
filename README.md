@@ -1,5 +1,7 @@
 # 📚 Review Summarizer
 
+# Course: NLP (Semester 6) - Pillai College of Engineering
+
 ## 📖 Project Overview
 This project is part of the **Natural Language Processing (NLP)** course for Semester 6 students at **Pillai College of Engineering**. The project, **“Review Summarizer,”** focuses on developing an AI-powered system capable of extracting concise summaries from customer reviews across different domains, such as e-commerce platforms and entertainment services.
 
@@ -20,7 +22,6 @@ The project explores and compares the performance of various approaches such as 
 - Random Forest
 - XGBoost
 - Naïve Bayes
-- LightGBM
 
 ### 🔥 Deep Learning Algorithms
 - LSTM (Long Short-Term Memory)
@@ -29,7 +30,6 @@ The project explores and compares the performance of various approaches such as 
 
 ### 🤖 Language Models
 - BERT (Bidirectional Encoder Representations from Transformers)
-- DistilBERT
 - RoBERTa
 
 ---
@@ -82,14 +82,12 @@ The comparative analysis highlights the effectiveness of different models in acc
 | Model                  | Accuracy (%) | ROUGE Score | BLEU Score |
 |------------------------|--------------|-------------|------------|
 | BERT                    | 92.4         | 0.91        | 0.85       |
-| DistilBERT              | 90.8         | 0.89        | 0.83       |
 | RoBERTa                 | 91.5         | 0.90        | 0.84       |
 
 #### IMDB Dataset
 | Model                  | Accuracy (%) | ROUGE Score | BLEU Score |
 |------------------------|--------------|-------------|------------|
 | BERT                    | 91.0         | 0.89        | 0.84       |
-| DistilBERT              | 89.3         | 0.87        | 0.81       |
 | RoBERTa                 | 90.0         | 0.88        | 0.83       |
 
 ---
@@ -123,3 +121,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - Integration of real-time summarization APIs.
 - Adapting the system for multilingual contexts.
 - Enhancing the summarization pipeline with model ensembles.
+
+**🌟 Contributors**:  
+Sai Sanas, Nikhil Tandel, Ritesh Vishwakarma, Anisha Gavhankar  
