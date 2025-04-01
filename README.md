@@ -98,18 +98,29 @@ The table below shows the detailed performance metrics for our models on the IMD
 - **Model Consistency:** Logistic Regression and Random Forest models demonstrated more stable performance across different feature types compared to other models.
 
 ### ⚡ Deep Learning Model Results
-#### Table of Current Performance and Suggested Modifications
+#### Table of Current Performance 
 
-| Model | Dataset | Current Test Accuracy | Current Test F1 | Suggested Modifications |
-|-------|---------|-----------------------|----------------|---------------------------|
-| **LSTM**  | Amazon  | 88.8%                 | 0.875647       | - Use pre-trained embeddings ([Word Embeddings](https://nlp.stanford.edu/projects/glove/))<br>- Keep stopwords<br>- Tune hyperparameters<br>- Consider increasing model complexity (e.g., more layers)<br>- Use dropout for regularization |
-| **CNN**   | Amazon  | 87.05%                | 0.855892       | - Use pre-trained embeddings ([Word Embeddings](https://nlp.stanford.edu/projects/glove/))<br>- Keep stopwords<br>- Tune hyperparameters<br>- Consider increasing model complexity (e.g., more filters)<br>- Use batch normalization |
-| **MLP**   | Amazon  | 81.6%                 | 0.806338       | - Use pre-trained embeddings ([Word Embeddings](https://nlp.stanford.edu/projects/glove/))<br>- Keep stopwords<br>- Increase model complexity (e.g., more hidden layers)<br>- Tune hyperparameters<br>- Use dropout |
-| **LSTM**  | IMDB    | 57.5%                 | 0.574479       | - Use pre-trained embeddings ([Word Embeddings](https://nlp.stanford.edu/projects/glove/))<br>- Keep stopwords<br>- Tune hyperparameters<br>- Check data preprocessing and model architecture<br>- Consider data augmentation |
-| **CNN**   | IMDB    | 64.5%                 | 0.642416       | - Use pre-trained embeddings ([Word Embeddings](https://nlp.stanford.edu/projects/glove/))<br>- Keep stopwords<br>- Tune hyperparameters<br>- Check data preprocessing and model architecture<br>- Use batch normalization |
-| **MLP**   | IMDB    | 55.5%                 | 0.554097       | - Use pre-trained embeddings ([Word Embeddings](https://nlp.stanford.edu/projects/glove/))<br>- Keep stopwords<br>- Increase model complexity<br>- Tune hyperparameters<br>- Check data preprocessing and model architecture |
+==================================================
+## AMAZON Dataset - Model Comparison
+==================================================
 
-This table encapsulates the current state and proposed enhancements, ensuring a structured approach to improving the DL models.
+|Model                  | Accuracy | F1 Score | Precision | Recall | Training Time (s) |
+|------------------------|----------|---------|-----------|--------|-------------------|
+| **BiLSTM**            | 86.63%   | 86.82%  | 88.33%    | 86.63% | 120.1             |
+| **GRU with Attention** | 93.56%   | 93.55%  | 93.79%    | 93.56% | 0.0               |
+| **CNN**               | 97.03%   | 97.02%  | 97.08%    | 97.03% | 0.0               |
+| **BERT**              | 20.30%   | 6.85%   | 4.12%     | 20.30% | 0.0               |
+
+==================================================
+## IMDB Dataset - Model Comparison
+==================================================
+
+|Model                  | Accuracy | F1 Score | Precision | Recall | Training Time (s) |
+|------------------------|----------|---------|-----------|--------|-------------------|
+| **BiLSTM**            | 73.00%   | 72.93%  | 73.23%    | 73.00% | 108.9             |
+| **GRU with Attention** | 81.50%   | 81.42%  | 82.04%    | 81.50% | 0.0               |
+| **CNN**               | 77.50%   | 77.30%  | 78.53%    | 77.50% | 0.0               |
+| **BERT**              | 50.00%   | 33.33%  | 25.00%    | 50.00% | 0.0               |
 
 ---
 
