@@ -100,9 +100,7 @@ The table below shows the detailed performance metrics for our models on the IMD
 ### ⚡ Deep Learning Model Results
 #### Table of Current Performance 
 
-==================================================
-## AMAZON Dataset - Model Comparison
-==================================================
+### AMAZON Dataset - Model Comparison
 
 |Model                  | Accuracy | F1 Score | Precision | Recall | Training Time (s) |
 |------------------------|----------|---------|-----------|--------|-------------------|
@@ -111,9 +109,7 @@ The table below shows the detailed performance metrics for our models on the IMD
 | **CNN**               | 97.03%   | 97.02%  | 97.08%    | 97.03% | 0.0               |
 | **BERT**              | 20.30%   | 6.85%   | 4.12%     | 20.30% | 0.0               |
 
-==================================================
-## IMDB Dataset - Model Comparison
-==================================================
+### IMDB Dataset - Model Comparison
 
 |Model                  | Accuracy | F1 Score | Precision | Recall | Training Time (s) |
 |------------------------|----------|---------|-----------|--------|-------------------|
