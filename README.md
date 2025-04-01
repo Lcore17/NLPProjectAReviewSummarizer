@@ -9,6 +9,14 @@ By automating the review summarization process, the system aims to reduce the ma
 
 ---
 
+## 📚 Acknowledgements
+We would like to express our sincere gratitude to:
+- 📖 **Theory Faculty:** Dhiraj Amin, Sharvari Govilkar  
+- 💻 **Lab Faculty:** Dhiraj Amin, Neha Ashok, Shubhangi Chavan  
+- 🎓 **Pillai College of Engineering** for their continuous support and resources.
+
+---
+
 ## 🎯 Project Abstract
 The **Review Summarization** project aims to automatically summarize customer reviews by identifying critical aspects such as **product quality, shipping, service, pricing, and overall sentiment.** This task involves applying advanced **Natural Language Processing (NLP)** techniques, including tokenization, vectorization (TF-IDF, Word2Vec, BoW), and deep learning models like **LSTM and BERT**.
 
@@ -136,14 +144,6 @@ The project paves the way for further enhancements, including:
 - Adaptation for multilingual and diverse datasets
 - Integration of more advanced ensemble techniques
 - Exploration of domain-specific fine-tuning for specialized applications
-
----
-
-## 📚 Acknowledgements
-We would like to express our sincere gratitude to:
-- 📖 **Theory Faculty:** Dhiraj Amin, Sharvari Govilkar  
-- 💻 **Lab Faculty:** Dhiraj Amin, Neha Ashok, Shubhangi Chavan  
-- 🎓 **Pillai College of Engineering** for their continuous support and resources.
 
 ---
 
